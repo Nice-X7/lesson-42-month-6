@@ -1,9 +1,9 @@
 import React from "react";
-import { GoogleMap } from "@react-google-maps/api";
+import styles from "./contacts.module.css";
 
 export const Contacts = () => {
   return (
-    <div className="google-map">
+    <div className={styles.google_map}>
       <div>
         <iframe
           width="100%"

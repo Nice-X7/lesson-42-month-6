@@ -1,0 +1,30 @@
+/* ----------header.jsx----------- */
+.header {
+    color: #fff;
+    width: 50%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+  }
+
+/* ----------navbar.jsx----------- */
+.navigation > ul {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+  .navigation > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+  }
+  .navigation > ul > li > a:hover {
+    color: #fff;
+    transition: 0.3s;
+  }
+  .navigation > ul > li > a.active {
+    border-bottom: 4px solid #fff;
+  }

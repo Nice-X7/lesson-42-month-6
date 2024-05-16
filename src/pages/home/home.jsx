@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./home.module.css";
 
 export const Home = () => {
   return (
-    <div className="home">
+    <div className={styles.home}>
       <h1>Cover your page</h1>
       <main>
         Cover is a one-page template for building simple and beautiful home

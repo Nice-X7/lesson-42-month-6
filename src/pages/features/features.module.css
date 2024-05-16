@@ -1,0 +1,27 @@
+/* -------buttons.jsx-------- */
+.buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .learn_more, .read_more {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+/* ---------features.jsx---------- */
+  .features {
+    color: #fff;
+    width: 30%;
+    margin: 200px auto;
+    text-align: center;
+  }
+  .features > main {
+    font-size: 18px;
+    padding-top: 10px;
+  }
